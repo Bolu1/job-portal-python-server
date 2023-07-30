@@ -1,0 +1,11 @@
+install:
+	pip3 install -r ./src/requirements.txt
+
+start:
+	python3 -m uvicorn src.main:backend_app --reload
+
+dev:
+	docker-compose up -d
+
+dev-down:
+	docker-compose down

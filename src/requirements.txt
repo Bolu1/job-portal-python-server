@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2
+python-dotenv
+passlib
+bcrypt
+python-jose
+python-multipart
+isort
+black
+pre-commit
+mypy
+python-decouple
+loguru
+pydantic-settings
+SQLAlchemy==2.0.0b3
